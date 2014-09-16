@@ -1,3 +1,6 @@
 class Person
-  # code here
+  attr_reader :age
+  def initialize(age)
+    @age = age
+  end
 end
