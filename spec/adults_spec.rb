@@ -23,7 +23,7 @@ describe Adults do
   it "Only yields Person objects" do
     # By mixing in Enumerable we get access to the none? method
     # Don't write this yourself
-    expect(@adults.any?{|adult| adult.class == Dog }).to be_false
+    expect(@adults.any?{|adult| adult.class == Dog }).to be_falsey
   end
 
   it "Only yields people over 18" do
