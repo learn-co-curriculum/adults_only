@@ -16,3 +16,5 @@ The Adults class can have both people and dogs added to it. You will define an #
 
 ## Order
 Complete the Dog and Person class first since Adults uses them both.
+
+<a href='https://learn.co/lessons/adults_only' data-visibility='hidden'>View this lesson on Learn.co</a>
